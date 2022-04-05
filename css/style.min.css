@@ -2229,6 +2229,18 @@ section {
         -ms-grid-column-align: center;
         justify-self: center
     }
+    .modal__box {
+    -ms-grid-columns: 95%;
+    grid-template-columns: 95%;
+}
+
+.bx2 {
+    justify-content: flex-end;
+}
+
+.bx2__title {
+display: none
+ }
 }
 
 @media (max-width:425px) {
