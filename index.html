@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220405122255">
+    <title>Главная</title>
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <header class="header" id="header">
+    <div class="header__top top">
+        <!-- <div class="top__cover"> -->
+        <div class="container__header header-container">
+            <div class="top__menu menu-top">
+                <svg class="menu-top__logo icon">
+                    <use xlink:href="./img/svgicons.svg#logo"></use>
+                </svg>
+                <!-- <svg class="menu-top__line icon">
+                    <use xlink:href="img/svgicons.svg#line"></use>
+                </svg> -->
+                <button class="dark-mode" id="toggle__button">
+                    <span class="dark-mode__visually-hidden">dark-mode
+                    </span>
+                </button>
+                <button class="menu-top__burger burger" aria-controls="nav" aria-expanded="false"><span
+                        class="burger__span" aria-hidden="true">Menu</span></button>
+                <nav class="menu-top__nav">
+                    <ul class="menu-top__list" id="nav" data-visible="false">
+                        <li class="menu-top__item">
+                            <a href="#skills" class="menu-top__link">Обо мне</a>
+                        </li>
+                        <li class="menu-top__item">
+                            <a href="#work" class="menu-top__link">Работа</a>
+                        </li>
+                        <li class="menu-top__item">
+                            <a href="#work" class="menu-top__link">Портфолио</a>
+                        </li>
+                        <li class="menu-top__item">
+                            <a href="#contacts" class="menu-top__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="top__actions actions-top">
+                <h2 class="actions-top__title ">Create Your <br> Design Now
+                </h2>
+                <p class="actions-top__text">We work as freelancers to complete all related work on design</p>
+                <a href="#work" class="actions-top__button button">Мои работы</a>
+                <span class="actions-top__circle circle"></span>
+            </div>
+            <div class="top__cover-block">
+                <div class="top__picture picture-top ">
+                    <picture><source srcset="./img/avatar.webp" type="image/webp"><img class="picture-top__img" src="./img/avatar.png" alt="avatar"></picture>
+                    <svg class="picture-top__icon icon">
+                        <use xlink:href="./img/svgicons.svg#hand"></use>
+                    </svg>
+                </div>
+                <div class="top__social social">
+                    <a href="https://habr.com/ru/users/Len77" class="social__link">
+                        <svg class="social__icon icon">
+                            <use xlink:href="./img/svgicons.svg#habr" />
+                        </svg>
+                    </a>
+                    <a href="http://" class="social__link">
+                        <svg class="social__icon icon">
+                            <use xlink:href="./img/svgicons.svg#vk" />
+                        </svg>
+                    </a>
+                    <a href=" https://t-do.ru/len_ur" class="social__link">
+                        <svg class="social__icon icon">
+                            <use xlink:href="./img/svgicons.svg#tg" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/lenur77" class="social__link">
+                        <svg class="social__icon icon">
+                            <use xlink:href="./img/svgicons.svg#git" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+</header>
+    <main class="main">
+      <section id="skills" class="section skills ">
+        <span class="skills__circle circle animation"></span>
+        <div class="container skills__container animation">
+          <h1 class="section__title animation">Мои навыки</h1>
+          <ul class="skills__list" id="skills">
+            <li class="skills__item">Photoshop
+              <picture><source srcset="img/logo/ps.webp" type="image/webp"><img class="skills__level" src="img/logo/ps.png" alt="ps"></picture>
+            </li>
+            <li class="skills__item">HTML
+              <picture><source srcset="img/logo/html.webp" type="image/webp"><img class="skills__level" src="img/logo/html.png" alt="html"></picture> </li>
+            <li class="skills__item">CSS
+              <picture><source srcset="img/logo/css.webp" type="image/webp"><img class="skills__level" src="img/logo/css.png" alt="css"></picture>
+            </li>
+            <li class="skills__item">JS
+              <picture><source srcset="img/logo/JavaScript.webp" type="image/webp"><img class="skills__level" src="img/logo/JavaScript.png" alt="JavaScript"></picture>
+            </li>
+            <li class="skills__item">Figma
+              <picture><source srcset="img/logo/figma.webp" type="image/webp"><img class="skills__level" src="img/logo/figma.png" alt="figma"></picture>
+            </li>
+            <li class="skills__item">Bootstrap
+              <picture><source srcset="img/logo/bootstrap.webp" type="image/webp"><img class="skills__level" src="img/logo/bootstrap.png" alt="bootstrap"></picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="work" class="section work">
+        <div class="work__container container  animation">
+          <span class="work__circle circle animation"></span>
+          <!-- <span class="rotate"><picture><source srcset="img/shape.webp" type="image/webp"><img src="img/shape.png" alt=""></picture></span> -->
+          <h2 class="section__title">Мои работы</h2>
+
+          <!-- здесь модал -->
+
+
+          <div class="swiper__grid">
+            <div class="swiper__gallery gallery-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/nogh/11.webp" type="image/webp"><img src="img/works/nogh/11.png"></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/active-box/13.webp" type="image/webp"><img src="img/works/active-box/13.png" /></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/blog/8.webp" type="image/webp"><img src="img/works/blog/8.png" /></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/dores/6.webp" type="image/webp"><img src="img/works/dores/6.png" /></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/ozon/6.webp" type="image/webp"><img src="img/works/ozon/6.png" /></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/pog/1.webp" type="image/webp"><img src="img/works/pog/1.png" /></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/sushi/3.webp" type="image/webp"><img src="img/works/sushi/3.png" /></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/reu/reu-1.webp" type="image/webp"><img src="img/works/reu/reu-1.jpg" /></picture>
+                </div>
+              </div>
+            </div><!-- swiper__gallery -->
+
+            <!------------- thumbsSlider --------------->
+            <div thumbsSlider="" class="swiper__tumbs tumbs-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">Zlatmax</h3>
+                    <p class="card-tumbs-swiper__text">
+                      Адаптивный интернет-магазин из урока "Фрилансер по жизни"
+                      При написании использовался Gulp, SCSS, JavaScript, Webpack.
+                    </p>
+                    <a href="https://lenur77.github.io/on/home.html" target="blank" class="card-tumbs-swiper__button button">На
+                      страницу</a>
+                      <label for="chkBox" class="modal__label" ><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                        </label>
+                         
+                  </div>
+                </div><!-- swiper-slide 1-->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">Active-box</h3>
+                    <p class="card-tumbs-swiper__text">
+                      Адаптивный лэндинг из урока BrainCloud.
+                      При написании использовался JavaScript.
+                    </p>
+                    <a href="https://active-box.it-reu.ru" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <label for="chkBox--2"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                    </label>
+                  </div>
+                </div> <!-- swiper-slide 2-->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">Персональный блог</h3>
+                    <p class="card-tumbs-swiper__text">
+                      Адаптивная страница-портфолио из урока BrainCloud.
+                      При написании использовался Gulp, SCSS, JavaScript.
+                    </p>
+                    <a href="https://blog.it-reu.ru" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <label for="chkBox--3"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                    </label>
+                  </div>
+                </div> <!-- swiper-slide3 -->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">Интернет-магазин "Дорэс"</h3>
+                    <p class="card-tumbs-swiper__text">Интернет-магазин автозапчастей.
+                      Самостоятельный проект из шаблона PS. JavaScript, Bootstrap.
+                    </p>
+                    <a href="https://dor-es.it-reu.ru/index.htm" target="blank" class="card-tumbs-swiper__button button">На
+                      страницу</a>
+                      <label for="chkBox--4"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                      </label>
+                  </div>
+                </div> <!-- swiper-slide4 -->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">Youtube</h3>
+                    <p class="card-tumbs-swiper__text">
+                      Проект "Glo-academy" для новичков.
+                    </p>
+                    <a href="https://youtube.it-reu.ru" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <label for="chkBox--5"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                    </label>
+                  </div>
+                </div> <!-- swiper-slide5 -->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">"Пожтехнология"</h3>
+                    <p class="card-tumbs-swiper__text">Учебный проект на курсе Российского экономического университета имени Г.В. Плеханова </p>
+                    <a href="https://fire.it-reu.ru" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <button class="card-tumbs-swiper__button--gost button button--gost">Галерея </button>
+                  </div>
+                </div> <!-- swiper-slide6 -->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">"Food-Bill"</h3>
+                    <p class="card-tumbs-swiper__text">Главная страница интернет-магазина из шаблона Figma. Размещен на
+                      github. JavaScript, форма регистрации, адаптив. </p>
+                    <a href="https://lenur77.github.io/Bill/" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <label for="chkBox--6"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                    </label>
+                  </div>
+                </div> <!-- swiper-slide7 -->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">"1-C"</h3>
+                    <p class="card-tumbs-swiper__text">Учебный проект на курсе Российского экономического университета имени Г.В. Плеханова </p>
+                    <a href="http://lenur.it-reu.ru" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <label for="chkBox--7"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                    </label>
+                  </div>
+                </div> <!-- swiper-slide8 -->
+              </div> <!-- swiper-wrapper -->
+            </div> <!-- swiper__tumbs -->
+          </div>
+          <div class="gallery-swiper__arrows">
+            <div class="gallery-swiper__button-prev"></div>
+            <div class="gallery-swiper__button-next"></div>
+
+          </div>
+        </div> <!-- work__container -->
+      </section>
+      <section id="contacts" class="section contacts">
+        <div class="contacts__wave"></div>
+        <div class="container contacts__container animation">
+          <h2 class="contacts__title animation">Связаться со мной</h2>
+          <div class="contacts__content content-contacts">
+            <h3 class="content-contacts__title">Сообщение</h3>
+            <div class="content-contacts__info">
+              <div class="content-contacts__card contact-card">
+                <svg class="content-contacts__icon icon">
+                  <use xlink:href="img/svgicons.svg#mail"></use>
+                </svg>
+                <h3 class="contact-card__title">Email</h3>
+                <span class="contact-card__data">user@mail....</span>
+                <a href="mailto:lenur77@gmail.com" target="_blank"
+                  class="contact-card__button button button--gost">Напишите мне <span>&#8667</span></a>
+              </div>
+              <div class="content-contacts__card contact-card">
+                <svg class="content-contacts__icon icon">
+                  <use xlink:href="img/svgicons.svg#WhatsApp"></use>
+                </svg>
+                <h3 class="contact-card__title">WhatsApp</h3>
+                <span class="contact-card__data">+7(916)281-53-98</span>
+                <a href=" https://wa.me/79162815398?text=Здравствуйте!" target="_blank"
+                  class="contact-card__button  button button--gost">Напишите мне <span>&#8667</span></a>
+              </div>
+              <div class="content-contacts__card contact-card">
+                <svg class="content-contacts__icon icon">
+                  <use xlink:href="img/svgicons.svg#mail"></use>
+                </svg>
+                <h3 class="contact-card__title">Email</h3>
+                <span class="contact-card__data">user@mail....</span>
+                <a href="" target="_blank" class="contact-card__button  button button--gost">Напишите мне
+                  <span>&#8667</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__content content-contacts">
+            <h3 class="content-contacts__title">Форма обратной связи</h3>
+            <form action="text" class="content-contacts__form form-contacts">
+              <div class="form-contacts__item">
+                <label for="" class="form-contacts__label">Имя </label>
+                  <input class="form-contacts__input" placeholder="Ваше имя"
+                    type="text">
+              </div>
+              <div class="form-contacts__item">
+                <label for="" class="form-contacts__label">E-mail</label>
+                  <input class="form-contacts__input" placeholder="Ваш e-mail" type="email">
+              </div>
+              <div class="form-contacts__item  form-contacts__item--textarea">
+                <label for="" class="form-contacts__label">Сообщение </label>
+                  <textarea class="form-contacts__input" name="" id=""
+                    cols="30" rows="10" placeholder="Напишите Ваше сообщение"></textarea>
+              </div>
+              <button class="form-contacts__button button animation">Отправить сообщение</button>
+            </form>
+          </div>
+        </div>
+        <span class="contacts__circle circle animation"></span>
+      </section>
+    </main>
+    <div class="modal" id="modal">
+    <input type="checkbox" class="modal__checkbox" name="" id="chkBox">
+    <div class="modal__content">
+        <div class="modal__box">
+            <div class="bx1">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\11.webp" type="image/webp"><img src="img\works\nogh\11.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\12.webp" type="image/webp"><img src="img\works\nogh\12.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\13.webp" type="image/webp"><img src="img\works\nogh\13.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\14.webp" type="image/webp"><img src="img\works\nogh\14.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\15.webp" type="image/webp"><img src="img\works\nogh\15.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\16.webp" type="image/webp"><img src="img\works\nogh\16.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\17.webp" type="image/webp"><img src="img\works\nogh\17.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\18.webp" type="image/webp"><img src="img\works\nogh\18.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img\works\nogh\19.webp" type="image/webp"><img src="img\works\nogh\19.png" alt=""></picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bx2">
+                <h3 class="bx2__title"><a href="https://lenur77.github.io/on/home.html"></a>Учебный проект с
+                    использованием Gulp (Урок "Фрилансер по жизни")</h3>
+                <div class="swiper-arrows">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="modal__close">
+                <label for="chkBox" class="modal__closeBtn">&#10006</label>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal--2">
+    <input type="checkbox" class="modal__checkbox" name="" id="chkBox--2">
+    <div class="modal__content">
+        <div class="modal__box">
+            <div class="bx1">
+                <div class="swiper swiper-1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/active-box/10.webp" type="image/webp"><img src="img/works/active-box/10.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/active-box/11.webp" type="image/webp"><img src="img/works/active-box/11.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/active-box/12.webp" type="image/webp"><img src="img/works/active-box/12.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/active-box/13.webp" type="image/webp"><img src="img/works/active-box/13.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/active-box/14.webp" type="image/webp"><img src="img/works/active-box/14.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/active-box/15.webp" type="image/webp"><img src="img/works/active-box/15.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/active-box/10.webp" type="image/webp"><img src="img/works/active-box/10.png" alt=""></picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bx2">
+                <h3 class="bx2__title"> Active-box<a href="">
+                    </a> Адаптивный лэндинг из урока BrainCloud.
+                    При написании использовался JavaScript.</h3>
+                <div class="swiper-arrows">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="modal__close">
+                <label for="chkBox--2" class="modal__closeBtn">&#10006</label>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal--3">
+    <input type="checkbox" class="modal__checkbox" name="" id="chkBox--3">
+    <div class="modal__content">
+        <div class="modal__box">
+            <div class="bx1">
+                <div class="swiper swiper-3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/1.webp" type="image/webp"><img src="img/works/blog/1.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/2.webp" type="image/webp"><img src="img/works/blog/2.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/3.webp" type="image/webp"><img src="img/works/blog/3.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/4.webp" type="image/webp"><img src="img/works/blog/4.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/5.webp" type="image/webp"><img src="img/works/blog/5.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/6.webp" type="image/webp"><img src="img/works/blog/6.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/7.webp" type="image/webp"><img src="img/works/blog/7.png" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-zoom-container">
+                                <picture><source srcset="img/works/blog/8.webp" type="image/webp"><img src="img/works/blog/8.png" alt=""></picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bx2">
+                <h3 class="bx2__title"><a href="https://blog.it-reu.ru">Персональный блог
+                    </a></h3>
+                <div class="swiper-arrows">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="modal__close">
+                <label for="chkBox--3" class="modal__closeBtn">&#10006</label>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<!--++++++++++++++++++++Пример+++++++++++++++++++++++++++++++++-->
+
+<!-- <div class="modal" id="modal"> -->
+<!-- <input type="checkbox" class="modal__checkbox" name="" id="chkBox--N">
+    <label for="chkBox--N"><a class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+    </label> -->
+<!-- <div class="modal__content">
+        <div class="modal__box">
+            <div class="bx1"> -->
+<!-- Swiper -->
+<!-- </div>
+            <div class="bx2">
+                <h3 class="bx2__title"><a href="">
+                </a>Name</h3>
+                    <div class="swiper-arrows">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+            </div>
+            <div class="modal__close">
+                <label for="chkBox--N" class="modal__closeBtn">&#10006</label>
+            </div>
+             <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="swiper swiper-1">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+                <picture><source srcset="img/works/active-box/10.webp" type="image/webp"><img src="img/works/active-box/10.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+                <picture><source srcset="img/works/active-box/11.webp" type="image/webp"><img src="img/works/active-box/11.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+                <picture><source srcset="img/works/active-box/12.webp" type="image/webp"><img src="img/works/active-box/12.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+                <picture><source srcset="img/works/active-box/13.webp" type="image/webp"><img src="img/works/active-box/13.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+                <picture><source srcset="img/works/active-box/14.webp" type="image/webp"><img src="img/works/active-box/14.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+                <picture><source srcset="img/works/active-box/15.webp" type="image/webp"><img src="img/works/active-box/15.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+                <picture><source srcset="img/works/active-box/10.webp" type="image/webp"><img src="img/works/active-box/10.png" alt=""></picture>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-arrows">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+<h4 class="gallery__text"><a href="https://lenur77.github.io/on/home.html"></a>Учебный проект
+    лэндинга (Урок "BrainClouds")</h4>
+</div>
+</section>
+
+<section id="third" class="gallery">
+<h4 class="gallery__text"><a href="https://lenur77.github.io/on/home.html"></a>Страница магазина заказа
+еды (Самостоятельный проект)</h4> -->
+<!-- swiper-2 -->
+<!-- <div class="swiper-2 swiper">
+<div class="swiper-wrapper">
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/sushi/1.webp" type="image/webp"><img src="img/works/sushi/1.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/sushi/2.webp" type="image/webp"><img src="img/works/sushi/2.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/sushi/3.webp" type="image/webp"><img src="img/works/sushi/3.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/sushi/mob.webp" type="image/webp"><img src="img/works/sushi/mob.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/sushi/mob2.webp" type="image/webp"><img src="img/works/sushi/mob2.png" alt=""></picture>
+        </div>
+    </div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-arrows">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+</div> -->
+<!-- swiper-3 -->
+<!-- <div class="swiper swiper-3">
+<div class="swiper-wrapper">
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/1.webp" type="image/webp"><img src="img/works/blog/1.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/2.webp" type="image/webp"><img src="img/works/blog/2.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/3.webp" type="image/webp"><img src="img/works/blog/3.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/4.webp" type="image/webp"><img src="img/works/blog/4.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/5.webp" type="image/webp"><img src="img/works/blog/5.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/6.webp" type="image/webp"><img src="img/works/blog/6.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/7.webp" type="image/webp"><img src="img/works/blog/7.png" alt=""></picture>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+            <picture><source srcset="img/works/blog/8.webp" type="image/webp"><img src="img/works/blog/8.png" alt=""></picture>
+        </div>
+    </div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-arrows">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+</div>
+<h4 class="gallery__text"><a href="https://blog.it-reu.ru/index.html"></a>Личный блог (Урок
+"BrainClouds")</h4>
+</section>
+
+<section id="four" class="gallery">
+<h4 class="gallery__text"><a href="https://dor-es.it-reu.ru/index.htm"></a>Страница магазина заказа
+еда (Самостоятельный проект)</h4> -->
+<!-- swiper-4 -->
+<!-- <div class="swiper  swiper-4">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/dores/1.webp" type="image/webp"><img src="img/works/dores/1.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/dores/2.webp" type="image/webp"><img src="img/works/dores/2.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/dores/3.webp" type="image/webp"><img src="img/works/dores/3.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/dores/4.webp" type="image/webp"><img src="img/works/dores/4.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/dores/5.webp" type="image/webp"><img src="img/works/dores/5.png" alt=""></picture>
+</div>
+</div>
+
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-arrows">
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+</div> -->
+<!-- swiper-5 -->
+<!-- <div class="swiper swiper-5">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/1.webp" type="image/webp"><img src="img/works/pog/1.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/2.webp" type="image/webp"><img src="img/works/pog/2.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/3.webp" type="image/webp"><img src="img/works/pog/3.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/4.webp" type="image/webp"><img src="img/works/pog/4.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/5.webp" type="image/webp"><img src="img/works/pog/5.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/6.webp" type="image/webp"><img src="img/works/pog/6.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/7.webp" type="image/webp"><img src="img/works/pog/7.png" alt=""></picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper-zoom-container">
+    <picture><source srcset="img/works/pog/11.webp" type="image/webp"><img src="img/works/pog/11.png" alt=""></picture>
+</div>
+</div>
+
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-arrows">
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+</div>
+<h4 class="gallery__text"><a href="https://fire.it-reu.ru/index.php"></a>Личный блог (Урок
+"BrainClouds")</h4>
+</section> -->
+
+    <footer class="footer">
+    <div class="scroll__up scroll">
+        <svg class="scroll__icon icon">
+            <use xlink:href="img/svgicons.svg#mouse"></use>
+        </svg>
+        <span class="scroll__text">Вверх</span>
+    </div>
+    <div class="footer__container">
+        <div class="footer__menu">
+            <svg class="footer__logo icon">
+                <use xlink:href="img/svgicons.svg#logo"></use>
+            </svg>
+            <nav class="footer__nav" id="nav">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#skills" class="footer__link">Обо мне</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#work" class="footer__link">Работа</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#work" class="footer__link">Портфолио</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#contacts" class="footer__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__social social footer-social">
+                <a href="https://habr.com/ru/users/Len77" target="_blank" class="social__link footer-social__link">
+                    <svg class="social__icon icon">
+                        <use xlink:href="img/svgicons.svg#habr" />
+                    </svg>
+                </a>
+                <a href="http://" class="social__link footer-social__link" target="_blank">
+                    <svg class="social__icon icon">
+                        <use xlink:href="img/svgicons.svg#vk" />
+                    </svg>
+                </a>
+                <a href=" https://t-do.ru/len_ur" class="social__link footer-social__link" target="_blank">
+                    <svg class="social__icon icon">
+                        <use xlink:href="img/svgicons.svg#tg" />
+                    </svg>
+                </a>
+                <a href="https://github.com/lenur77" class="social__link footer-social__link" target="_blank">
+                    <svg class="social__icon icon">
+                        <use xlink:href="img/svgicons.svg#git" />
+                    </svg>
+                </a>
+            </div>
+            <span class="footer__copy">&#169; Kamenskaya. All rigths reserved.</span>
+        </div>
+    </div>
+</footer>
+  </div>
+  <script src="js/app.min.js?_v=20220405122255"></script>
+</body>
+</html>
