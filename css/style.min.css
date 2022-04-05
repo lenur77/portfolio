@@ -2045,6 +2045,15 @@ section {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr
     }
+.no-webp .top {
+     background: $gradient;
+        filter: drop-shadow(0.2rem .5rem #b6b5b526)
+}
+
+.webp .top  {
+     background: $gradient;
+        filter: drop-shadow(0.2rem .5rem #b6b5b526)
+}
 
     .menu-top__list {
         -webkit-box-orient: vertical;
