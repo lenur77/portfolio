@@ -1053,6 +1053,7 @@ section {
     -ms-flex-order: -1;
     order: -1;
     width: 30%
+    z-index: 2;
 }
 
 .tumbs-swiper__card {
