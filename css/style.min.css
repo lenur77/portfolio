@@ -1668,6 +1668,7 @@ section {
 .footer__icon {
     display: none;
     width: clamp(5rem,4rem + 3vw,10rem);
+    height:clamp(5rem, 4rem + 3vw, 10rem);
     aspect-ratio: 1;
     text-align: center;
     fill: rgba(255,255,255,.9);
