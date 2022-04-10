@@ -355,6 +355,10 @@ section {
     background: url(../img/headerg.png) 50% 100%/cover no-repeat
 }
 
+.webp .top {
+    background: url(../img/headerg.webp) 50% 100%/cover no-repeat
+}
+
 .top__cover-block {
     display: -ms-grid;
     display: grid;
@@ -2291,6 +2295,3 @@ section {
     }
 }
 
-.webp .top {
-    background: url(../img/headerg.webp) 50% 100%/cover no-repeat
-}
