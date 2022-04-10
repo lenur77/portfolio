@@ -2079,7 +2079,7 @@ section {
 }
 
 @media (max-width:768px) {
-    .top {
+    .top, .webp .top {
         background: -o-linear-gradient(135deg,#ffcafb 0,#8084c4 35%,#293d9c 70%,#de21be 100%);
         background: linear-gradient(-45deg,#ffcafb 0,#8084c4 35%,#293d9c 70%,#de21be 100%);
         -webkit-filter: drop-shadow(.2rem .5rem #b6b5b526);
