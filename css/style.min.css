@@ -2097,6 +2097,7 @@ section {
 
     .menu-top__logo {
         max-width: 4rem;
+        max-height: 4rem;
         aspect-ratio: 1
     }
 
