@@ -298,19 +298,19 @@
           </div>
           <div class="contacts__content content-contacts">
             <h3 class="content-contacts__title">Форма обратной связи</h3>
-            <form action="text" class="content-contacts__form form-contacts">
+            <form action="https://formsubmit.co/lenur77@gmail.com" method="post" class="content-contacts__form form-contacts">
               <div class="form-contacts__item">
                 <label for="" class="form-contacts__label">Имя </label>
                   <input class="form-contacts__input" placeholder="Ваше имя"
-                    type="text">
+                    type="text" name='name' required>
               </div>
               <div class="form-contacts__item">
                 <label for="" class="form-contacts__label">E-mail</label>
-                  <input class="form-contacts__input" placeholder="Ваш e-mail" type="email">
+                  <input class="form-contacts__input" placeholder="Ваш e-mail" type="email" name='email' required>
               </div>
               <div class="form-contacts__item  form-contacts__item--textarea">
                 <label for="" class="form-contacts__label">Сообщение </label>
-                  <textarea class="form-contacts__input" name="" id=""
+                  <textarea class="form-contacts__input" name="" required id=""
                     cols="30" rows="10" placeholder="Напишите Ваше сообщение"></textarea>
               </div>
               <button class="form-contacts__button button animation">Отправить сообщение</button>
@@ -775,7 +775,7 @@
             <nav class="footer__nav" id="nav">
                 <ul class="footer__list">
                     <li class="footer__item">
-                        <a href="#header" class="footer__link">Домой
+                        <a href="#header" class="footer__link">В начало
                             <svg  class="footer__icon icon">
                                 <use xlink:href="img/svgicons.svg#home" />
                             </svg>
