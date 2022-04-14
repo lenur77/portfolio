@@ -69,8 +69,7 @@ input[type=checkbox],input[type=radio] {
 }
 
 textarea {
-    overflow: auto;
-    vertical-align: top
+    overflow: auto
 }
 
 button,html,input,select,textarea {
@@ -87,14 +86,6 @@ button,html,input,select,textarea {
 ::selection {
     background: #e8aa3110;
     text-shadow: none
-}
-
-img {
-    vertical-align: middle
-}
-
-textarea {
-    resize: vertical
 }
 
 a {
