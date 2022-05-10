@@ -28,12 +28,6 @@ textarea {
     display: none
 }
 
-html {
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
-}
-
 img {
     border: 0;
     -ms-interpolation-mode: bicubic
@@ -73,7 +67,7 @@ textarea {
 }
 
 button,html,input,select,textarea {
-    color: none;
+    color: transparent;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -94,7 +88,7 @@ a {
 }
 
 @font-face {
-    font-family:Poppins,sans-serif;font-display:swap;src:url(../fonts/Poppins.woff) format("woff"),url(../fonts/Poppins.woff2) format("woff2");font-weight:400;font-style:normal
+    font-family:'Poppins',sans-serif;font-display:swap;src:url(../fonts/Poppins.woff) format("woff"),url(../fonts/Poppins.woff2) format("woff2");font-weight:400;font-style:normal
 }
 
 *,:after,:before {
@@ -134,12 +128,12 @@ body {
     border-radius: .5rem
 }
 
-::-webkit-scrollbar-tumb {
+::-webkit-scrollbar-thumb {
     background: #36c;
     border-radius: .5rem
 }
 
-::-webkit-scrollbar-tumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #36c
 }
 
@@ -942,7 +936,7 @@ section {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
-    width: 30%
+    width: 30%;
     position: relative;
     z-index: 10;
 }
@@ -1560,12 +1554,12 @@ section {
     display: none;
     width: clamp(5rem,4rem + 3vw,10rem);
     height:clamp(5rem, 4rem + 3vw, 10rem);
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
     text-align: center;
     fill: rgba(255,255,255,.9);
     border-radius: 50%;
     padding: clamp(1rem,.8rem + .625vw,2rem);
-    overflow: overlay;
+    overflow: hidden;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s
