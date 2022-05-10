@@ -88,18 +88,20 @@ a {
 }
 
 @font-face {
-    font-family:'Poppins',sans-serif;font-display:swap;src:url('../fonts/Poppins-Bold.woff') format("woff"),url('../fonts/Poppins-Bold.woff2') format("woff2");font-weight:700;font-style:normal
+    font-family:'Poppins';font-display:swap;src:url('../fonts/Poppins-Bold.woff') format("woff"),url('../fonts/Poppins-Bold.woff2') format("woff2");font-weight:700;font-style:normal
 }
 @font-face {
-    font-family:'Poppins',sans-serif;font-display:swap;src:url('../fonts/Poppins-Light.woff') format("woff"),url('../fonts/Poppins-Light.woff2') format("woff2");font-weight:300;font-style:normal
+    font-family:'Poppins';font-display:swap;src:url('../fonts/Poppins-Light.woff') format("woff"),url('../fonts/Poppins-Light.woff2') format("woff2");font-weight:300;font-style:normal
 }
 @font-face {
-    font-family:'Poppins',sans-serif;font-display:swap;src:url('../fonts/Poppins-Regular.woff') format("woff"),url('../fonts/Poppins-Regular.woff2') format("woff2");font-weight:400;font-style:normal
+    font-family:'Poppins';font-display:swap;src:url('../fonts/Poppins-Regular.woff') format("woff"),url('../fonts/Poppins-Regular.woff2') format("woff2");font-weight:400;font-style:normal
 }
 
 *,:after,:before {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #36c #36c;
 }
 
 html {
@@ -132,9 +134,10 @@ body {
 
 ::-webkit-scrollbar {
     width: .5rem;
-    background: #36c;
     border-radius: .5rem
 }
+::-webkit-scrollbar-track {
+     background: #36c
 
 ::-webkit-scrollbar-thumb {
     background: #36c;
@@ -182,7 +185,7 @@ section {
 .circle {
     display: block;
     width: 3rem;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
     position: relative;
     background: -webkit-gradient(linear,left bottom,right top,from(#c62eba),to(#fff));
     background: -o-linear-gradient(bottom left,#c62eba 0,#fff 100%);
@@ -196,7 +199,7 @@ section {
 .circle:before {
     content: "";
     width: 3rem;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
     position: absolute;
     border-radius: 50%;
     background: -webkit-gradient(linear,left bottom,right top,from(#c62eba),to(#fff));
@@ -211,7 +214,7 @@ section {
 .circle:after {
     content: "";
     width: 4rem;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
     position: absolute;
     border-radius: 50%;
     -webkit-box-shadow: 3px -3px 10px 5px rgba(51,102,204,.4),5px -5px 15px 0 rgba(51,102,204,.4);
