@@ -122,7 +122,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-transition: .3s linear;
     -o-transition: .3s linear;
-    transition: .3s linear
+    transition: .3s linear,
+    scrollbar-width: thin;
+    scrollbar-color: #36c #36c;
 }
 
 ._dark {
@@ -177,7 +179,6 @@ section {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    scrollbar-width: thin;
     justify-content: center
 }
 
