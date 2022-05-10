@@ -88,7 +88,7 @@ a {
 }
 
 @font-face {
-    font-family:'Poppins',sans-serif;font-display:swap;src:url(../fonts/Poppins.woff) format("woff"),url(../fonts/Poppins.woff2) format("woff2");font-weight:400;font-style:normal
+    font-family:'Poppins',sans-serif;font-display:swap;src:url('../fonts/Poppins.woff') format("woff"),url('../fonts/Poppins.woff2') format("woff2");font-weight:400;font-style:normal
 }
 
 *,:after,:before {
