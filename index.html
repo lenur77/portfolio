@@ -60,7 +60,7 @@
             <div class="top__actions actions-top">
                 <h2 class="actions-top__title ">Привет! <br> Меня зовут Елена
                 </h2>
-                <p class="actions-top__text">Я начинающий верстальщик и это моё портфолио</p>
+                <p class="actions-top__text">Я начинающий web-разработчик</p>
                 <a href="#work" class="actions-top__button button">Мои работы</a>
                 <span class="actions-top__circle circle"></span>
             </div>
@@ -90,6 +90,11 @@
                     <a href="https://github.com/lenur77" class="social__link">
                         <svg class="social__icon icon">
                             <use xlink:href="img/svgicons.svg#git" />
+                        </svg>
+                    </a>
+                    <a href="https://codepen.io/lenur77" class="social__link">
+                        <svg class="social__icon icon">
+                            <use xlink:href="img/svgicons.svg#codepen" />
                         </svg>
                     </a>
                 </div>
@@ -159,6 +164,12 @@
                 </div>
                 <div class="swiper-slide gallery-swiper-slide">
                   <picture><source srcset="img/works/reu/reu-1.webp" type="image/webp"><img src="img/works/reu/reu-1.jpg" alt="img"/></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="./img/works/alef/alef_1.webp" type="image/webp"><img src="img/works/alef/alef_1.jpg" alt="img"/></picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                  <picture><source srcset="img/works/memGame/mem.webp" type="image/webp"><img src="img/works/memGame/mem.jpg" alt="img"/></picture>
                 </div>
               </div>
             </div><!-- swiper__gallery -->
@@ -255,6 +266,24 @@
                     </label>
                   </div>
                 </div> <!-- swiper-slide8 -->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">"Alef Dev"</h3>
+                    <p class="card-tumbs-swiper__text">Тренировочный проект</p>
+                    <a href="https://lenur77.github.io/AlefDevelopment/" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <label for="chkBox--9"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                    </label>
+                  </div>
+                </div> <!-- swiper-slide9 -->
+                <div class="swiper-slide tumbs-swiper-slide">
+                  <div class="tumbs-swiper__card card-tumbs-swiper">
+                    <h3 class="card-tumbs-swiper__tittle">Игра "МЕМОРИ: ОДИНАКОВЫЕ КАРТОЧКИ"</h3>
+                    <p class="card-tumbs-swiper__text">JS игра</p>
+                    <a href="https://codepen.io/lenur77/pen/JjpOVog" target="blank" class="card-tumbs-swiper__button button">На страницу</a>
+                    <label for="chkBox--10"><a  class="card-tumbs-swiper__button--gost button button--gost" >Галерея</a>
+                    </label>
+                  </div>
+                </div> <!-- swiper-slide10 -->
               </div> <!-- swiper-wrapper -->
             </div> <!-- swiper__tumbs -->
           </div>
@@ -763,6 +792,93 @@
             </div>
         </div>
     </div>
+        <!--============ "alef"============= -->
+    <div class="modal" id="modal--9">
+        <input type="checkbox" class="modal__checkbox" name="" id="chkBox--9">
+        <div class="modal__content">
+            <div class="modal__box">
+                <div class="bx1">
+                    <div class="swiper swiper-9">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-zoom-container">
+                                    <picture><source srcset="img/works/alef/alef_1.webp" type="image/webp"><img src="img/works/alef/alef_1.jpg" alt="Alef"></picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-zoom-container">
+                                    <picture><source srcset="img/works/alef/alef_2.webp" type="image/webp"><img src="img/works/alef/alef_2.jpg" alt="Alef"></picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-zoom-container">
+                                    <picture><source srcset="img/works/alef/alef_3.webp" type="image/webp"><img src="img/works/alef/alef_3.jpg" alt="Alef"></picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-zoom-container">
+                                    <picture><source srcset="img/works/alef/alef_5.webp" type="image/webp"><img src="img/works/alef/alef_5.jpg" alt="Alef"></picture>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="bx2">
+                    <h3 class="bx2__title"><a href="https://lenur77.github.io/AlefDevelopment/">Проект.
+                        </a></h3>
+                    <div class="swiper-arrows">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="modal__close">
+                    <label for="chkBox--9" class="modal__closeBtn">&#10006;</label>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+        <!--============ "game"============= -->
+    <div class="modal" id="modal--10">
+        <input type="checkbox" class="modal__checkbox" name="" id="chkBox--10">
+        <div class="modal__content">
+            <div class="modal__box">
+                <div class="bx1">
+                    <div class="swiper swiper-10">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-zoom-container">
+                                    <picture><source srcset="img/works/memGame/mem.webp" type="image/webp"><img src="img/works/memGame/mem.jpg" alt="memCard"></picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-zoom-container">
+                                    <picture><source srcset="img/works/memGame/mem_2.webp" type="image/webp"><img src="img/works/memGame/mem_2.jpg" alt="memCard"></picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-zoom-container">
+                                    <picture><source srcset="img/works/memGame/mem_3.webp" type="image/webp"><img src="img/works/memGame/mem_3.jpg" alt="memCard"></picture>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="bx2">
+                    <h3 class="bx2__title"><a href="https://codepen.io/lenur77/pen/JjpOVog">Memory-card-game
+                        </a></h3>
+                    <div class="swiper-arrows">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="modal__close">
+                    <label for="chkBox--10" class="modal__closeBtn">&#10006;</label>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
 <!-- *************footer************************ -->
     <footer class="footer">
     <div class="scroll__up scroll">
@@ -814,9 +930,9 @@
                         <use xlink:href="img/svgicons.svg#habr" />
                     </svg>
                 </a>
-                <a href="#" class="social__link footer-social__link" target="_blank">
+                <a href="https://codepen.io/lenur77" class="social__link footer-social__link" target="_blank">
                     <svg class="social__icon icon">
-                        <use xlink:href="img/svgicons.svg#vk" />
+                        <use xlink:href="img/svgicons.svg#codepen" />
                     </svg>
                 </a>
                 <a href=" https://t-do.ru/len_ur" class="social__link footer-social__link" target="blank">
