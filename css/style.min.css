@@ -933,7 +933,9 @@ section {
 }
 
 .gallery-swiper-slide img {
-    max-height: 50rem
+    max-height: 50rem;
+   position: center;
+
 }
 
 .gallery-swiper-slide:hover {
